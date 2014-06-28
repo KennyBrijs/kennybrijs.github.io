@@ -1,0 +1,27 @@
+{
+  "name": "kennybrijs-be",
+  "version": "1.0.0",
+  "description": "Personal website of Kenny Brijs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "Kenny Brijs",
+  "license": "none",
+  "bugs": {
+    "url": ""
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.8.2",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-imagemin": "^0.7.1",
+    "grunt-contrib-uglify": "~0.3.1",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
