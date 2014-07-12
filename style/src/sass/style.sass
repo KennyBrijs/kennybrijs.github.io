@@ -1,0 +1,68 @@
+// Variables
+$color-main: #68faff
+$color-black: #444
+$color-white: #fff
+
+$font-family-base: "orator-std"
+$font-family-headlines: "ff-good-headline-web-pro-con", Helvetica
+
+// TODO: Font-sizes
+// 300px
+// 96px
+// 72px
+// 68px
+// 44px
+// 36px
+// 30px
+
+// Base
+body
+	margin: 0
+	font-size: 1em
+	font-family: $font-family-base
+	color: $color-black
+
+img,
+video
+	max-width: 100%
+
+video
+	display: block
+
+// Mixins
+.headline
+	font-family: $font-family-headlines
+	font-weight: bold
+	font-style: italic
+	text-transform: uppercase
+.container-color .headline
+	color: $color-white
+
+h1, .h1,
+h2, .h2,
+h3, .h3
+	@extend .headline
+
+h1, .h1
+	// font-size: 10em
+	font-size: 150px
+	color: $color-main
+
+h2, .h2
+	font-size: 2em
+
+footer
+	text-align: center
+
+// Helpers
+.container-color
+	background-color: $color-main
+
+// Layout
+.content
+
+// TODO: media queries
+// .content
+// 	width: 38.75em
+// 	margin-right: auto
+// 	margin-left: auto

@@ -12,7 +12,20 @@ module.exports = function(grunt) {
           }]
       }
     },
+    compass: {
+      dist: {
+        options: {
+          sassDir: 'style/src/sass',
+          cssDir: 'style/css',
+          environment: 'production'
+        }
+      },
+    },
     watch: {
+      css: {
+        files: 'style/src/sass/*.sass',
+        tasks: ['compass'],
+      },
       img: {
         files: 'style/src/img/**/*.{png,jpg,gif}',
         tasks: ['imagemin']
@@ -20,10 +33,9 @@ module.exports = function(grunt) {
     },
   });
 
+  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-watch');
-
   
   grunt.registerTask('default', ['imagemin']);
-
 };
