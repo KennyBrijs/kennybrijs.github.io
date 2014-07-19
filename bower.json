@@ -1,0 +1,22 @@
+{
+  "name": "kennybrijs.github.io",
+  "version": "0.0.0",
+  "homepage": "kennybrijs.be",
+  "authors": [
+    "Kenny Brijs <kennybrijs@gmail.com>"
+  ],
+  "description": "Personal website",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.sass": "ptb/normalize.sass"
+  }
+}

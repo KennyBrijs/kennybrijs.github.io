@@ -1,0 +1,14 @@
+{
+  "name": "normalize.sass",
+  "homepage": "https://github.com/ptb/normalize.sass",
+  "_release": "9b6a3db3bc",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9b6a3db3bc863bccd29c4f4c7cc8f0191c5cdb1c"
+  },
+  "_source": "git://github.com/ptb/normalize.sass.git",
+  "_target": "*",
+  "_originalSource": "ptb/normalize.sass",
+  "_direct": true
+}

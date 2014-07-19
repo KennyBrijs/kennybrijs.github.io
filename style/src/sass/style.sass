@@ -1,3 +1,5 @@
+@import '../../../bower_components/normalize.sass/normalize'
+
 // Variables
 $color-main: #68faff
 $color-black: #444
@@ -6,20 +8,29 @@ $color-white: #fff
 $font-family-base: "orator-std"
 $font-family-headlines: "ff-good-headline-web-pro-con", Helvetica
 
-// TODO: Font-sizes
-// 300px
-// 96px
-// 72px
-// 68px
-// 44px
-// 36px
-// 30px
+$font-size-base: 16px
+
+$font-size-xxxl: 150px
+$font-size-xxl: 48px
+$font-size-xl: 36px
+$font-size-l: 34px
+$font-size-m: 22px
+$font-size-s: 18px
+$font-size-xs: 15px
+$font-size-xxs: 12px
+
+// Mixins
+=font-size($px)
+	font-size: $px
+	font-size: ($px / $font-size-base) * 1em
 
 // Base
+html
+	font-size: .85rem
 body
 	margin: 0
-	font-size: 1em
 	font-family: $font-family-base
+	line-height: 1.5
 	color: $color-black
 
 img,
@@ -44,22 +55,69 @@ h3, .h3
 	@extend .headline
 
 h1, .h1
-	// font-size: 10em
-	font-size: 150px
+	margin-top: .5em
+	margin-bottom: .3em
+	+font-size($font-size-xxxl)
+	line-height: 1
 	color: $color-main
 
 h2, .h2
-	font-size: 2em
+	font-family: $font-family-base
+	+font-size($font-size-xs)
+	font-style: normal
+
+a:link
+
+	display: inline-block
+	line-height: 1.3em
+	color: inherit
+	background-color: $color-main
+a:hover,
+a:focus
+	background-color: $color-white
+a:visited
+	color: inherit
+	background-color: none
+.container-color
+	a:link
+		background-color: $color-white
+	a:hover,
+	a:focus
+		background-color: $color-main
 
 footer
 	text-align: center
 
 // Helpers
+.lead
+	+font-size($font-size-m)
+	text-transform: uppercase
 .container-color
 	background-color: $color-main
 
 // Layout
 .content
+	padding: 2rem 1rem
+
+#header
+	text-align: center
+	h1
+		max-width: 3.1em
+		margin-right: auto
+		margin-left: auto
+	.kenny,
+	.brijs
+		display: block
+	.kenny
+		text-align: left
+	.brijs
+		text-align: right
+	h2
+		position: relative
+		top: -12.5rem
+
+#footer
+	text-align: center
 
 // TODO: media queries
 // .content
