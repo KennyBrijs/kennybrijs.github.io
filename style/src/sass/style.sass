@@ -1,4 +1,7 @@
+// Normalize
 @import '../../../bower_components/normalize.sass/normalize'
+
+@import 'compass/css3'
 
 // Variables
 $color-main: #68faff
@@ -67,7 +70,7 @@ h2, .h2
 	font-style: normal
 
 a:link
-
+	transition: background-color .2s linear
 	display: inline-block
 	line-height: 1.3em
 	color: inherit
@@ -77,13 +80,15 @@ a:focus
 	background-color: $color-white
 a:visited
 	color: inherit
-	background-color: none
 .container-color
 	a:link
 		background-color: $color-white
 	a:hover,
 	a:focus
 		background-color: $color-main
+
+code
+	font-family: $font-family-base
 
 footer
 	text-align: center
