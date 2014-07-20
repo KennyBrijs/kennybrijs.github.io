@@ -1,7 +1,7 @@
 // Normalize
 @import '../../../bower_components/normalize.sass/normalize'
 
-@import 'compass/css3'
+@import 'compass'
 
 // Variables
 $color-main: #68faff
@@ -144,7 +144,8 @@ footer
 	padding: 2rem 1rem
 	width: 100%
 	overflow: hidden
-
+.grid-container
+	@include pie-clearfix
 .grid-left,
 .grid-right
 	display: block
@@ -167,8 +168,10 @@ footer
 		top: -12.5rem
 
 #projects
-	h4 a
-		line-height: 1.6
+	h4 
+		margin-top: -1px
+		a
+			line-height: 1.6
 
 #social
 	.social-link
@@ -179,8 +182,39 @@ footer
 	text-align: center
 	a:link
 		@extend .link-secondary
+		text-transform: uppercase
 
 // TODO: media queries
+@media (min-width: 640px)
+	html
+		font-size: 1rem
+	.lead
+		margin-top: 6rem
+	.content
+		width: 42.5rem
+		margin-right: auto
+		margin-left: auto
+		overflow: visible
+	.grid-left,
+	.grid-right
+		width: 50%
+	.grid-left
+		float: left
+		padding-right: .625rem
+	.grid-right
+		float: right
+		padding-left: .625rem
+
+	#projects
+		h3
+			margin-top: 9rem
+		.portfolio
+			li
+				margin-bottom: 5rem
+	#vikingstyle
+		.fb_iframe_widget
+			left: -2.25rem
+
 // .content
 // 	width: 38.75em
 // 	margin-right: auto
