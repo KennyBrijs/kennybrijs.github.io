@@ -34,6 +34,8 @@ body
 	margin: 0
 	font-family: $font-family-base
 	line-height: 1.5
+	text-rendering: optimizeLegibility
+	// -webkit-font-smoothing: antialiased
 	color: $color-black
 
 img,
@@ -54,7 +56,9 @@ video
 
 h1, .h1,
 h2, .h2,
-h3, .h3
+h3, .h3,
+h4, .h4,
+h5, .h5
 	@extend .headline
 
 h1, .h1
@@ -69,12 +73,34 @@ h2, .h2
 	+font-size($font-size-xs)
 	font-style: normal
 
+h3, .h3
+	margin-top: 4rem
+	margin-bottom: 1rem
+	+font-size($font-size-xxl)
+
+h4, .h4
+	margin-top: 0
+
+h5, .h5
+	margin-top: 3rem
+	margin-bottom: 1rem
+	+font-size($font-size-xl)
+	color: $color-main
+.container-color
+	h5, .h5
+		color: $color-white
+
 a:link
 	transition: background-color .2s linear
 	display: inline-block
-	line-height: 1.3em
+	line-height: 1.4em
 	color: inherit
 	background-color: $color-main
+	&.has-img
+		background-color: transparent
+		img
+			// display: block
+			vertical-align: bottom
 a:hover,
 a:focus
 	background-color: $color-white
@@ -87,6 +113,10 @@ a:visited
 	a:focus
 		background-color: $color-main
 
+ul.is-unstyled
+	list-style-type: none
+	padding: 0
+
 code
 	font-family: $font-family-base
 
@@ -97,6 +127,7 @@ footer
 .lead
 	+font-size($font-size-m)
 	text-transform: uppercase
+	
 .container-color
 	background-color: $color-main
 
@@ -121,6 +152,9 @@ footer
 		position: relative
 		top: -12.5rem
 
+#projects
+	h4 a
+		line-height: 1.6
 #footer
 	text-align: center
 
