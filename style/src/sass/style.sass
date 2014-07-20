@@ -37,7 +37,8 @@ body
 	text-rendering: optimizeLegibility
 	// -webkit-font-smoothing: antialiased
 	color: $color-black
-
+*
+	box-sizing: border-box
 img,
 video
 	max-width: 100%
@@ -57,8 +58,8 @@ video
 h1, .h1,
 h2, .h2,
 h3, .h3,
-h4, .h4,
-h5, .h5
+h5, .h5,
+h6, .h6
 	@extend .headline
 
 h1, .h1
@@ -90,6 +91,10 @@ h5, .h5
 	h5, .h5
 		color: $color-white
 
+h6, .h6
+	@extend h5
+	+font-size($font-size-l)
+
 a:link
 	transition: background-color .2s linear
 	display: inline-block
@@ -101,6 +106,9 @@ a:link
 		img
 			// display: block
 			vertical-align: bottom
+	small &,
+	&.link-secondary
+		background-color: transparent
 a:hover,
 a:focus
 	background-color: $color-white
@@ -134,6 +142,12 @@ footer
 // Layout
 .content
 	padding: 2rem 1rem
+	width: 100%
+	overflow: hidden
+
+.grid-left,
+.grid-right
+	display: block
 
 #header
 	text-align: center
@@ -155,8 +169,16 @@ footer
 #projects
 	h4 a
 		line-height: 1.6
+
+#social
+	.social-link
+		display: block
+		margin-bottom: 2rem
+		text-align: center
 #footer
 	text-align: center
+	a:link
+		@extend .link-secondary
 
 // TODO: media queries
 // .content
