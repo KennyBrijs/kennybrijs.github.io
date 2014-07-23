@@ -110,12 +110,14 @@ a:link
 			vertical-align: bottom
 	&.is-block
 		display: block
-	small &,
-	&.link-secondary
-		background-color: transparent
-a:hover, a.hover,
-a:focus, a.focus
+a.link-secondary:link
+	background-color: transparent
+a:hover
+a:focus
 	background-color: $color-white
+a.link-secondary:hover, 
+a.link-secondary:focus
+	text-decoration: none
 a:visited
 	color: inherit
 .container-color
@@ -124,7 +126,8 @@ a:visited
 	a:hover, a.hover,
 	a:focus, a.focus
 		background-color: $color-main
-
+small a
+	@extend a.link-secondary
 a.has-img:hover + a.is-img-link-helper
 	@extend a.hover
 
@@ -138,6 +141,14 @@ code
 
 footer
 	text-align: center
+
+// Smile salto video
+#salto-frontale .vjs-play-progress,
+#salto-frontale .vjs-volume-level
+	background-color: $color-main
+#salto-frontale .vjs-mute-control
+	display: none
+
 
 // Helpers
 .lead
