@@ -1,0 +1,4 @@
+$ ->
+	mixpanel.track "Page viewed"
+
+	
