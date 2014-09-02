@@ -25,6 +25,18 @@
       'Project': 'horecaleuven.be',
       'Link type used': 'text'
     });
+    mixpanel.track_links('#social-network-linkedin', 'Social network visited', {
+      'Network': 'LinkedIn'
+    });
+    mixpanel.track_links('#social-network-twitter', 'Social network visited', {
+      'Network': 'Twitter'
+    });
+    mixpanel.track_links('#social-network-github', 'Social network visited', {
+      'Network': 'GitHub'
+    });
+    mixpanel.track_links('#social-network-coderwall', 'Social network visited', {
+      'Network': 'coderwall'
+    });
   });
 
 }).call(this);
