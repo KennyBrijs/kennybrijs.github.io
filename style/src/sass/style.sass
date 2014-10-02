@@ -98,11 +98,11 @@ h5, .h5
 	+font-size($font-size-l)
 
 a:link
-	transition: background-color .2s linear
+	// transition: background-color .2s linear
 	display: inline-block
 	line-height: 1.4em
 	color: inherit
-	background-color: $color-main
+	// background-color: $color-main
 	&.has-img
 		background-color: transparent
 		img
@@ -120,12 +120,12 @@ a.link-secondary:focus
 	text-decoration: none
 a:visited
 	color: inherit
-.container-color
-	a:link
-		background-color: $color-white
-	a:hover,
-	a:focus
-		background-color: $color-main
+// .container-color
+// 	a:link
+// 		background-color: $color-white
+// 	a:hover,
+// 	a:focus
+// 		background-color: $color-main
 small a
 	@extend a.link-secondary
 a.has-img:hover + a.is-img-link-helper
@@ -141,6 +141,11 @@ code
 
 footer
 	text-align: center
+
+.text-center
+	text-align: center
+.text-right
+	text-align: right
 
 // Smile salto video
 #salto-frontale .vjs-play-progress,
