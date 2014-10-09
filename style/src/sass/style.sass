@@ -28,6 +28,8 @@ $font-size-xxs: 12px
 	font-size: ($px / $font-size-base) * 1em
 
 // Base
+// html, body
+// 	height: 100%
 html
 	font-size: .85rem
 body
@@ -102,7 +104,6 @@ a:link
 	display: inline-block
 	line-height: 1.4em
 	color: inherit
-	// background-color: $color-main
 	&.has-img
 		background-color: transparent
 		img
@@ -110,22 +111,15 @@ a:link
 			vertical-align: bottom
 	&.is-block
 		display: block
-a.link-secondary:link
-	background-color: transparent
 a:hover,
 a:focus
-	background-color: $color-white
-a.link-secondary:hover, 
-a.link-secondary:focus
-	text-decoration: none
+	background-color: $color-main
 a:visited
 	color: inherit
-// .container-color
-// 	a:link
-// 		background-color: $color-white
-// 	a:hover,
-// 	a:focus
-// 		background-color: $color-main
+.container-color
+	a:hover,
+	a:focus
+		background-color: $color-white
 small a
 	@extend a.link-secondary
 a.has-img:hover + a.is-img-link-helper
@@ -183,8 +177,19 @@ footer
 
 #header
 	text-align: center
+	// height: 100%
+	// .content
+	// 	height: 100%
+	// position: fixed
+	// top: 0
+	// right: 0
+	// bottom: 0
+	// left: 0
 	h1
+		// position: relative
+		// top: 50%
 		max-width: 3.1em
+		// margin-top: -$font-size-xxxl
 		margin-right: auto
 		margin-left: auto
 	.kenny,
@@ -197,6 +202,9 @@ footer
 	h2
 		position: relative
 		top: -12.5rem
+		// position: relative
+		// top: 50%
+		// margin-top: -$font-size-xs/2
 
 #projects
 	.portfolio li
@@ -204,11 +212,28 @@ footer
 	a.is-img-link-helper
 		line-height: 1.6
 
+#vikingstyle
+	.lead,
+	#vikingstyle-title-facebook,
+	#vikingstyle-title-smile
+		text-align: center
+
 #social
 	.social-link
 		display: block
+		// width: 50%
+		// float: left
 		margin-bottom: 2rem
 		text-align: center
+		// [alt="LinkedIn"]
+		// 	width: .7612903226%
+		// [alt="Twitter"]
+		// 	width: .264516129%
+		// [alt="GitHub"]
+		// 	width: .5612903226%
+		// [alt="CoderWall"]
+		// 	width: .8248175182%
+
 #footer
 	text-align: center
 	a:link
@@ -243,6 +268,10 @@ footer
 			li
 				margin-bottom: 5rem
 	#vikingstyle
+		#vikingstyle-title-facebook
+			text-align: right
+		#vikingstyle-title-smile
+			text-align: left
 		.fb_iframe_widget
 			left: -2.25rem
 
