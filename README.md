@@ -15,11 +15,9 @@ Longing to live closer to my hometown **I’m looking for a cool web-company in 
 
 After reading [The Design of Everyday Things](http://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) **I want to work next to a great designer as a web architect** to create websites that are clear on first sight so even my parents *already know how to use it* ;)
 
-### CityLife Projects
+Making awesome shit in Ghent and looking for someone like me? Shoot me at [kennybrijs [at] gmail [dot] com](mailto:kennybrijs@gmail.com)
 
-copy paste from current
-
-### Technologies <small>(In order of frequency of use)</small>
+### Technologies <small>(Off the top of my head, in order of frequency of use)</small>
 
 Command Line and Sublime Text: all day, every day.
 
@@ -65,3 +63,4 @@ Command Line and Sublime Text: all day, every day.
 ### Project management
 - The [Atlassian](https://www.atlassian.com/) stack: [Confluence](https://www.atlassian.com/software/confluence) / [Jira](https://www.atlassian.com/software/jira) / [HipChat](https://www.atlassian.com/software/hipchat)
 - [Trac](http://trac.edgewall.org/) (Never again plz)
+
