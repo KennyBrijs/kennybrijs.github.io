@@ -7,8 +7,8 @@ a front-end webdeveloper from Aalst (Belgium) with a love for users, typography 
 
 For two years I’ve been building, maintaining and extending websites for [VikingCo](https://vikingco.com) in Hasselt: the founders of [Mobile Vikings](https://mobilevikings.be/en/) and [CityLife](https://citylife.be/#!/nl/).
 
-![Kenny Brijs](./style/img/README/kenny-vs-sinterklaas.jpg =250x)
-![Kenny Brijs](./style/img/README/kenny-brogramming.jpg =250x)
+![Kenny Brijs vs Sinterklaas](/style/img/README/kenny-vs-sinterklaas.jpg?raw=true =250x)
+![Kenny Brijs brogramming](/style/img/README/kenny-brogramming.jpg?raw=true =250x)
 
 ### I’d like to move it, move it!
 Longing to live closer to my hometown **I’m looking for a cool web-company in Ghent**, where I’d love to move from *implementing websites* to *creating them*.
