@@ -5,8 +5,8 @@
 
 a front-end webdeveloper who loves simplicity, users and typography.
 
-![Kenny Brijs vs Sinterklaas "Preparing to beat down racist Sinterklaas"](/style/img/README/kenny-vs-sinterklaas.jpg?raw=true)
-![Kenny Brijs brogramming "Superman brogramming"](/style/img/README/kenny-brogramming.jpg?raw=true)
+![Preparing to beat down racist Sinterklaas](/style/img/README/kenny-vs-sinterklaas.jpg?raw=true)
+![Superman brogramming](/style/img/README/kenny-brogramming.jpg?raw=true)
 
 <small>*(Lost my hair since these two pictures, excuse my vanity)*</small>
 
