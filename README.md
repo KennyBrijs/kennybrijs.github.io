@@ -1,5 +1,3 @@
-WordBoard: Geeky / Open & Eerlijk / 
-
 # Kenny Brijs
 ## Front-End Webdeveloper
 
@@ -10,7 +8,7 @@ a front-end webdeveloper who loves simplicity, users and typography.
 ![Kenny Brijs vs Sinterklaas "Preparing to beat down racist Sinterklaas"](/style/img/README/kenny-vs-sinterklaas.jpg?raw=true)
 ![Kenny Brijs brogramming "Superman brogramming"](/style/img/README/kenny-brogramming.jpg?raw=true)
 
-*<small>(Lost my hair since these two pictures, excuse my vanity)</small>*
+<small>*(Lost my hair since these two pictures, excuse my vanity)*</small>
 
 I’ve built and maintained websites at [VikingCo](https://vikingco.com)— the founders of [Mobile Vikings](https://mobilevikings.be/en/) and [CityLife](https://citylife.be/#!/nl/)—since December 2012 .
 
