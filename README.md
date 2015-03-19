@@ -43,6 +43,7 @@ Command Line and Sublime Text: all day, every day.
 ### Libs
 - [JQuery](http://jquery.com/)
 - [Underscore.js](http://underscorejs.org/)
+- and whichever libraries the project requires, but preferably as few as possible
 
 #### CMS’es
 - [WordPress](https://en.wordpress.com/)
