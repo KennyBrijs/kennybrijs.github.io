@@ -11,7 +11,7 @@ a front-end webdeveloper who loves simplicity, users and typography.
 I’ve built and maintained websites at [VikingCo](https://vikingco.com)— the founders of [Mobile Vikings](https://mobilevikings.be/en/) and [CityLife](https://citylife.be/#!/nl/)—since December 2012. *And lost my hair since these last two pictures, excuse my vanity*.
 
 ### [I like to move it](https://www.youtube.com/watch?v=Dyx4v1QFzhQ)
-After experimenting with [The Design of Everyday Things](http://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) **I want to work with a great designer as a web architect** to create websites that are fun and easy to use.
+After experimenting with [The Design of Everyday Things](http://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) **I want to work as a web architect with a great designer** to create websites that are fun and easy to use.
 
 Longing to live closer to my hometown Aalst, Belgium—[VikingCo](https://vikingco.com) is located in Hasselt—**I’m looking for a cool web-company in Ghent**.
 
