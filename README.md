@@ -5,19 +5,30 @@
 
 a front-end webdeveloper who loves simplicity, users and typography.
 
+I’ve built and maintained websites at [VikingCo](https://vikingco.com)— the founders of [Mobile Vikings](https://mobilevikings.be/en/) and [CityLife](https://citylife.be/)—since December 2012.
+
 ![Preparing to beat down racist Sinterklaas](/style/img/README/kenny-vs-sinterklaas.jpg?raw=true)
 ![Superman brogramming](/style/img/README/kenny-brogramming.jpg?raw=true)
 
-I’ve built and maintained websites at [VikingCo](https://vikingco.com)— the founders of [Mobile Vikings](https://mobilevikings.be/en/) and [CityLife](https://citylife.be/)—since December 2012 *(and lost a lot of hair since these two pictures, excuse my vanity)*.
+*(lost a lot of hair since these two pictures, excuse my vanity)*
 
-Apart from helping the Vikings out, [I worked most of my time as **lead front-end developer of CityLife**](http://be.linkedin.com/pub/kenny-brijs/33/247/926)—a startup providing a universal loyalty card—which started out as a research project and now succeeded to get some serious investments.
+Apart from helping the Vikings out, [I worked most of my time as **lead front-end developer of CityLife**](http://be.linkedin.com/pub/kenny-brijs/33/247/926)—a startup providing businesses with a universal loyalty card, which started out as a research project and now succeeded to get serious investments.
 
 ### [I like to move it](https://www.youtube.com/watch?v=Dyx4v1QFzhQ)
 Longing to live closer to my hometown Aalst, Belgium—[VikingCo](https://vikingco.com) is located in Hasselt—**I’m looking for a cool web-company in Ghent**.
 
 After experimenting with [The Design of Everyday Things](http://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) **I want to work together with a great designer as Web Architects** to create websites that are fun and easy to use.
 
-Making next level shit in Ghent and looking for a passionate front-end geek? Shoot me at [kennybrijs [at] gmail [dot] com](mailto:kennybrijs@gmail.com)
+If you are making next level shit in Ghent and are looking for a passionate front-end geek, hit me at [kennybrijs [at] gmail [dot] com](mailto:kennybrijs@gmail.com)
+
+### Recommended Reading
+- [The Design of Everyday Things](http://www.amazon.com/The-Design-Everyday-Things-Expanded/dp/0465050654/)
+- [Most if not all of the ‘A Book Apart’ series](http://abookapart.com/) (if you pick one, pick [Mobile First](http://abookapart.com/products/mobile-first))
+- [Most if not all of the ‘Five Simple Steps’ series](http://www.fivesimplesteps.com/collections/books) (if you pick one, pick [Hardboiled Webdesign](http://www.fivesimplesteps.com/products/hardboiled-web-design))
+- [Don’t Make Me Think](http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/)
+- [Thinking with Type](http://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695/)
+- [Detail in Typography](http://www.amazon.com/Detail-In-Typography-Jost-Hochuli/dp/0907259340)
+- [Universal Principles of Design](http://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)
 
 ### Frequently Used Technologies <small>(Nerds only)</small>
 
