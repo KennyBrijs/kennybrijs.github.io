@@ -14,7 +14,7 @@ I’ve built and maintained websites at [VikingCo](https://vikingco.com)— the 
 
 Apart from helping the Vikings out, [I worked most of my time as **lead front-end developer of CityLife**](http://be.linkedin.com/pub/kenny-brijs/33/247/926)—a startup providing businesses with a universal loyalty card, which started out as a research project and now succeeded to get serious investments.
 
-### [I like to move it](https://www.youtube.com/watch?v=Dyx4v1QFzhQ)
+### I like to move it [(move it)](https://www.youtube.com/watch?v=Dyx4v1QFzhQ)
 Longing to live closer to my hometown Aalst, Belgium—[VikingCo](https://vikingco.com) is located in Hasselt—**I’m looking for a cool web-company in Ghent**.
 
 After experimenting with [The Design of Everyday Things](http://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) **I want to work together with a great designer as Web Architects** to create websites that are fun and easy to use.
