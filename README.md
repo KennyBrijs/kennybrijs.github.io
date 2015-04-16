@@ -30,6 +30,7 @@ If you are making next level shit in Ghent and are looking for a passionate fron
 - [Detail in Typography](http://www.amazon.com/Detail-In-Typography-Jost-Hochuli/dp/0907259340)
 - [Universal Principles of Design](http://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)
 - [Getting Things Done](https://gettingthingsdone.com/store/product.php?productid=17035&cat=3&page=)
+- [Steve Jobs’ biography](http://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1442369051)
 
 Thanks [Jelle Desramaults](http://jelledesramaults.be) for recommending many of these books to me in the first place ;)
 
