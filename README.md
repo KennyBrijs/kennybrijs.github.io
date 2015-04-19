@@ -23,9 +23,11 @@ If you are making next level shit in Ghent and are looking for a passionate fron
 
 ### Recommended Reading
 - [The Design of Everyday Things](http://www.amazon.com/The-Design-Everyday-Things-Expanded/dp/0465050654/)
-- [Most if not all of the ‘A Book Apart’ series](http://abookapart.com/) (if you pick one, pick [Mobile First](http://abookapart.com/products/mobile-first))
-- [Most if not all of the ‘Five Simple Steps’ series](http://www.fivesimplesteps.com/collections/books) (if you pick one, pick [Hardboiled Webdesign](http://www.fivesimplesteps.com/products/hardboiled-web-design))
+- Most if not all of the [‘A Book Apart’ series](http://abookapart.com/) (if you pick one, pick [Mobile First](http://abookapart.com/products/mobile-first))
+- Most if not all of the [‘Five Simple Steps’ series](http://www.fivesimplesteps.com/collections/books) (if you pick one, pick [Hardboiled Webdesign](http://www.fivesimplesteps.com/products/hardboiled-web-design))
 - [Don’t Make Me Think](http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/)
+- [Eloquent JavaScript](http://eloquentjavascript.net)
+- [SMACSS: Scalable and Modular Architecture for CSS](https://smacss.com)
 - [Thinking with Type](http://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695/)
 - [Detail in Typography](http://www.amazon.com/Detail-In-Typography-Jost-Hochuli/dp/0907259340)
 - [Universal Principles of Design](http://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)
