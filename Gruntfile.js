@@ -50,6 +50,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-serve');
   
   grunt.registerTask('default', ['compass', 'coffee', 'imagemin']);
 };
